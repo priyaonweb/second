@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+
+}
+
+.navbar-nav ul li a:hover {
+    color: #007bff !important
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none !important
+}
+
+.nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+#slider {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 42;
+
+}
+
+#about {
+    padding-top: 50;
+    padding-bottom: 50;
+    color: #555
+}
+
+#about btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    padding: 20px;
+}
+
+.skills-bar p {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    border-radius: 16px;
+
+}
+
+.progress {
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+/*-------services--------*/
+#services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(F:\princess\codeBase\html+css+boot\img\97f58080-6509-11e8-b54f-e9d6b30332f7.png),
+        background-size:cover;
+    background-position: cover;
+    color: #efefefe !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sevices h1 {
+    text-align: center;
+    color: #efefefe !important;
+    padding-bottom: 10px;
+
+}
+
+h1::after {
+    content: '';
+    background: #050101;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#sevices h3 {
+    font-size: 20px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.profile pic {
+    margin-top: 25px;
+}
+
+.profile-pic .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+
+}
+
+.profile-pic.-box img {
+    filter: grayscale(1);
+}
+
+.profile-pic.img-box img:hover {
+    filter: grayscale(0);
+    courser: pointer;
+}
+
+profile-pic h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important
+}
+
+.profile-pic h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#team.fa {
+    height: 25px;
+    weight: 25px;
+    color: #007bff;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul {
+    padding: 15px, 0;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+
+.img-box ul li {
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box :hover ul {
+    opacity: 1;
+
+}
+
+.img-box ul,
+.img-box ul li {
+    transition: 0.5s;
+}
+
+#team {
+    text-align: center;
+}
+
+/* get in touch */
+
+#contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+::placeholder {
+    color: #999 !important;
+}
+/*----footer-----*/
+#footer{
+background:#333;
+color:#fff;
+padding: 12px;
+}
+.fa-heart-o{
+margin:3px;
+color:red;
+}
+.col-md-6 skills-bar{
+    width:100px;
+}
